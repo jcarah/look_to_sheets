@@ -1,0 +1,5 @@
+*.pickle
+*.ini
+credentials.json
+.mypy_cache
+.vscode

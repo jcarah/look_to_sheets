@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+looker-sdk = "==0.1.3b15"
+google-spreadsheet = "*"
+google-auth-oauthlib = "*"
+mypy = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
